@@ -1,4 +1,4 @@
-# Lagerverwalung mit Android-App
+# Lagerverwaltung mit Android-App
 Eine Lagerverwaltungssoftware, die über eine Verwaltungoberfläche gepflegt werden kann. Mit hilfe der Android-App können Artikel aus dem Lager ausgebucht werden.
 
 ## Software:
