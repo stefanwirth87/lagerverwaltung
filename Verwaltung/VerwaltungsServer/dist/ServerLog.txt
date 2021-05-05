@@ -1,0 +1,9 @@
+08.03.2017 20:41:49: Server ist gestartet
+08.03.2017 20:42:44: Server ist gestartet
+08.03.2017 20:42:54: Client connected: /127.0.0.1
+08.03.2017 20:42:55: Methode LoginMD5 wurde von Limbacher aufgerufen
+08.03.2017 20:42:57: Client disconnected: /127.0.0.1 --> Limbacher
+
+08.03.2017 20:42:58: Client connected: /127.0.0.1
+08.03.2017 20:43:10: Client disconnected: /127.0.0.1 --> Limbacher
+

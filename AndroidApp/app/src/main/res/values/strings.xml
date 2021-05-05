@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lagerverwaltung</string>
+    <string name="title_activity_bestand">Aktueller Artikel Bestand</string>
+    <string name="title_activity_auftraege">Bestellungen</string>
+    <string name="title_activity_auslagern">Auslagern</string>
+    <string name="title_activity_menue">Menü</string>
+    <string name="title_activity_main">Login</string>
+    <string name="title_activity_manuell_ausbuchen">Manuell ausbuchen</string>
+    <string name="title_activity_barcode_ausbuchen">Barcode ausbuchen</string>
+    <string name="title_activity_einstellungen">Einstellungen</string>
+    <string name="title_activity_login__einstellungen">Login Admin-Bereich</string>
+    <string name="title_activity_bestellungen_detail">Artikel zur Bestellung</string>
+    <string name="title_activity_bestellung_ausbuchen_kontrolle">Artikel Kontrolle vor Ausbuchen</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan">Scan</string>
+</resources>

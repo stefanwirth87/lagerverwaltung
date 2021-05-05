@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true">
+        <RelativeLayout
+            android:id="@+id/activity_manuell_ausbuchen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="wirth.lagerverwaltung.ManuellAusbuchen"
+            android:background="#282828"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnweniger"
+                android:background="?attr/colorButtonNormal"
+                android:textSize="18sp"
+                android:minHeight="30dp"
+                android:minWidth="30dp"
+                android:text="-"
+                android:textAllCaps="false"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/tvAnzahl"
+                android:layout_toEndOf="@+id/tvAnzahl" />
+
+            <TextView
+                android:text="Artikel Nummer: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#00aa55"
+                android:id="@+id/tvartikelNr"
+                android:textSize="18sp"
+                android:layout_marginTop="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:hint="# Artikel Nummer #"
+                android:gravity="center"
+                android:background="@android:color/darker_gray"
+                android:maxEms="8"
+                android:minEms="8"
+                android:layout_alignBaseline="@+id/tvartikelNr"
+                android:layout_alignBottom="@+id/tvartikelNr"
+                android:layout_toEndOf="@+id/tvartikelNr" />
+
+            <Button
+                android:text="Suchen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnsearch"
+                android:layout_below="@+id/tvartikelNr"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:text="9999"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvAnzahl"
+                android:textColor="#00aa55"
+                android:textSize="18sp"
+                android:background="?attr/colorButtonNormal"
+                tools:style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:inputType="numberSigned"
+                android:layout_below="@+id/btnmehr"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:text="Anzahl: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:textColor="#00aa55"
+                android:textSize="18sp"
+                android:layout_alignBaseline="@+id/tvAnzahl"
+                android:layout_alignBottom="@+id/tvAnzahl"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:text="Model: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#00aa55"
+                android:id="@+id/tvModel"
+                android:textSize="18sp"
+                android:layout_below="@+id/tvHersteller"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvanzahlgesamt"
+                android:textColor="#00aa55"
+                android:textSize="18sp"
+                android:text="Anzahl im Lager: "
+                android:layout_below="@+id/tvModel"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnmehr"
+                android:background="?attr/colorButtonNormal"
+                android:textSize="18sp"
+                android:minHeight="30dp"
+                android:minWidth="30dp"
+                android:text="+"
+                android:textAllCaps="false"
+                android:textStyle="normal|bold"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/tvanzahlgesamt"
+                android:layout_toEndOf="@+id/tvAnzahl" />
+
+            <TextView
+                android:text="Hersteller: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#00aa55"
+                android:id="@+id/tvHersteller"
+                android:textSize="18sp"
+                android:layout_marginTop="22dp"
+                android:layout_below="@+id/btnsearch"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/etbeschreibung"
+                android:background="@android:color/darker_gray"
+                android:hint="Warum wird manuell ausgebucht?"
+                android:gravity="top|left"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/btnweniger"
+                android:layout_alignParentStart="true"
+                android:paddingBottom="50dp" />
+
+            <Button
+                android:text="Ausbuchen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnkontrolleAusbuchen"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:layout_below="@+id/etbeschreibung"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp" />
+
+        </RelativeLayout>
+    </ScrollView>

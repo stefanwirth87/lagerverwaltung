@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Aktualisieren"
+        android:id="@+id/menu_aktualisieren"
+        android:icon="@drawable/refresh" />
+    <item android:title="Bestellungen einsehen"
+        android:id="@+id/menu_bestellungen" />
+    <item android:title="Zurück zum Menü"
+        android:id="@+id/menu_menue"
+        android:icon="@drawable/login" />
+    <item android:title="Abmelden"
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/logout" />
+</menu>

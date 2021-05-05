@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Einstellungen"
+        android:id="@+id/menu_einstellung"
+        android:menuCategory="container"
+        android:textColor="#00aa55"
+        android:icon="@drawable/settings" />
+
+</menu>

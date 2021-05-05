@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Zurück zum Menü"
+        android:id="@+id/menu_Menue_logout_menue"
+        android:icon="@drawable/login" />
+    <item android:title="Abmelden"
+        android:id="@+id/menu_Menue_logout_logout"
+        android:icon="@drawable/logout" />
+</menu>
